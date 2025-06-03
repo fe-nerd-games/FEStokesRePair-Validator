@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "festokes_repair"
 dynamic = ["version"]
-dependencies = []
+dependencies = [ "netgen", "ngsolve", "scipy", "plotly" ]
 
 [tool.setuptools.packages.find]
 where = ["src"]
