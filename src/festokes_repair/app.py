@@ -1,8 +1,6 @@
-from webapp_client.app import App
-from webapp_client.components import *
-from webapp_client.qcomponents import *
-from webapp_client.visualization import SolutionWebgui, PlotlyComponent
-from webapp_client.utils import load_image
+from ngapp.app import App
+from ngapp.components import *
+from ngapp.utils import load_image
 import netgen.occ as ngocc
 import ngsolve as ngs
 import os
